@@ -1,0 +1,10 @@
+{
+    "org.apache.cordova.inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@0.5.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

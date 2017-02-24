@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InAppBrowser.addEventListener Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+         var ref = window.open('http://sandbox.xseu.net', '_blank', 'toolbar=no,location=no');
+    }
+    function loadSite() {
+    	var ref = window.open('http://sandbox.xseu.net', '_blank', 'toolbar=no,location=no');
+    }
+
+    </script>
+
+    
+  </head>
+  <body>
+  </body>
+</html>
